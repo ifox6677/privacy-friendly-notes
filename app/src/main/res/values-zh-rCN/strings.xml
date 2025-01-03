@@ -1,0 +1,190 @@
+<resources>
+    <string name="app_name">笔记</string>
+    <string name="app_name_long">隐私友好的笔记</string>
+    <string name="default_category">默认</string>
+    <string name="default_color">默认</string>
+
+    <string name="title_manage_categories">分类</string>
+    <string name="title_textnote">文本笔记</string>
+    <string name="title_checklistnote">检查清单笔记</string>
+    <string name="title_audionote">音频笔记</string>
+    <string name="title_sketchnote">草图笔记</string>
+    <string name="title_recycle_bin">回收站</string>
+    <string name="title_settings">设置</string>
+    <string name="title_help">帮助</string>
+    <string name="title_about">关于</string>
+    <string name="title_tutorial">教程</string>
+
+    <string name="navigation_drawer_open">打开导航抽屉</string>
+    <string name="navigation_drawer_close">关闭导航抽屉</string>
+
+    <string name="nav_all">所有笔记</string>
+    <string name="nav_trash">回收站</string>
+    <string name="nav_manage_categories">管理分类</string>
+    <string name="nav_settings">设置</string>
+    <string name="nav_help">帮助</string>
+    <string name="nav_about">关于</string>
+    <string name="nav_tutorial">教程</string>
+
+    <string name="action_sort_alphabetical">按字母排序</string>
+    <string name="action_settings">设置</string>
+    <string name="action_help">帮助</string>
+    <string name="action_about">关于</string>
+    <string name="action_reminder">设置提醒</string>
+    <string name="action_reminder_edit">编辑提醒</string>
+    <string name="action_reminder_delete">删除提醒</string>
+
+    <string name="action_cancel">取消</string>
+    <string name="action_delete">删除</string>
+    <string name="action_delete_all">删除全部</string>
+    <string name="action_save">保存</string>
+    <string name="action_update">更新</string>
+    <string name="action_add">添加</string>
+    <string name="action_share">分享</string>
+    <string name="action_edit">编辑</string>
+    <string name="action_bold">加粗</string>
+    <string name="action_italics">斜体</string>
+    <string name="action_underline">下划线</string>
+    <string name="action_export">导出</string>
+    <string name="action_category">分类</string>
+    <string name="action_sketch_undo">撤销</string>
+    <string name="action_sketch_redo">重做</string>
+    <string name="action_convert_to_checklist">转换为检查清单</string>
+    <string name="action_convert_to_text">转换为文本笔记</string>
+
+    <string name="hint_name">名称</string>
+    <string name="hint_note">笔记</string>
+    <string name="hint_new_item">新项目</string>
+
+    <string name="toast_canceled">已取消，未保存</string>
+    <string name="toast_saved">笔记已保存</string>
+    <string name="toast_updated">笔记已更新</string>
+    <string name="toast_category_exists">分类已存在</string>
+    <string name="toast_alarm_scheduled">已为 %1s 安排闹钟</string>
+    <string name="toast_need_permission_audio">需要麦克风权限以使用此功能</string>
+    <string name="toast_need_permission_write_external">需要写入外部存储权限以使用此功能</string>
+    <string name="toast_external_storage_not_mounted">错误：无法写入外部存储</string>
+    <string name="toast_file_exported_to">已导出笔记到 %1s</string>
+    <string name="toast_emptyNote">空笔记无法保存</string>
+    <string name="toast_checklist_oneItem">只能修改一个项目。</string>
+    <string name="toast_deleted">笔记已删除</string>
+
+    <string name="dialog_delete_title">删除 %1s?</string>
+    <string name="dialog_delete_message">您确定要删除 %1s 吗？</string>
+    <string name="dialog_delete_category_with_notes">您确定要删除 %1s 吗？所有在该分类中的笔记 <b>将被删除！</b></string>
+    <string name="dialog_delete_category_without_notes">您确定要删除 %1s 吗？<b>不会</b> 删除任何笔记。</string>
+    <string name="dialog_delete_all_recycle_bin_title">删除回收站中的所有笔记</string>
+    <string name="dialog_delete_all_recycle_bin_message">您确定要删除回收站中当前筛选的所有笔记吗？</string>
+    <string name="dialog_trash_title">移动到回收站</string>
+    <string name="dialog_trash_message">笔记将被移动到回收站。您可以在回收站中恢复或永久删除它们。通知无法恢复。</string>
+    <string name="dialog_save_title">删除选定的项目。</string>
+    <string name="dialog_save_message">检查的项目将在更新或保存笔记时被删除。</string>
+    <string name="dialog_restore_title">恢复或删除 %1s?</string>
+    <string name="dialog_restore_message">您想恢复还是删除 %1s？</string>
+    <string name="dialog_need_category_title">没有分类</string>
+    <string name="dialog_need_category_message">您需要创建至少一个分类。\n您想现在进行吗？</string>
+    <string name="dialog_welcome">欢迎</string>
+    <string name="dialog_help">查看帮助</string>
+    <string name="dialog_welcome_text">使用此应用程序，您可以创建和分享文本、检查清单、备忘录和草图形式的笔记。</string>
+    <string name="dialog_ok" translatable="false">好</string>
+    <string name="dialog_create_category_title">创建分类</string>
+    <string name="dialog_create_category_btn">创建</string>
+    <string name="category_fab_desc">创建分类</string>
+
+    <string name="dialog_need_permission_notifications_and_exact_alarm_title">启用通知</string>
+    <string name="dialog_need_permission_notifications_and_exact_alarm_message">需要权限以发送通知和安排闹钟及提醒功能。</string>
+
+    <string name="dialog_option_delete">删除</string>
+    <string name="dialog_option_restore">恢复</string>
+    <string name="dialog_checklist_edit">您更改了项目：%s</string>
+
+    <string name="fab_text">新文本</string>
+    <string name="fab_audio">新音频</string>
+    <string name="fab_checklist">新检查清单</string>
+    <string name="fab_sketch">新草图</string>
+
+    <string name="note_standardname">笔记 %d</string>
+
+    <string name="tv_category">类别：</string>
+
+    <string name="settings_general_heading">常规</string>
+    <string name="settings_del_notes_title">删除类别中的笔记</string>
+    <string name="settings_del_notes_sum">同时删除被删除类别中的笔记。</string>
+    <string name="settings_note_trashing_dialog_title">删除笔记前确认</string>
+    <string name="settings_note_trashing_dialog_desc">在将笔记移动到回收站之前，请确认。</string>
+    <string name="settings_use_custom_font_size_title">自定义字体大小</string>
+    <string name="settings_use_custom_font_size_sum">在文本笔记编辑器中使用自定义字体大小。</string>
+    <string name="settings_font_size_title">字体大小</string>
+    <string name="settings_font_size_sum">点击这里选择字体大小。</string>
+    <string name="settings_color_category_title">按类别为笔记上色</string>
+    <string name="settings_color_category_summary">为每个类别使用自定义颜色并显示上色的笔记。</string>
+
+    <string name="help_overview_heading">概述</string>
+    <string name="help_intro">欢迎来到帮助页面。此应用让您在不妨碍隐私的情况下进行笔记的创建和管理。</string>
+    <string name="help_privacy_heading">隐私信息</string>
+    <string name="help_perm_receive_boot_title">接收启动完成</string>
+    <string name="help_perm_receive_boot_sum">需要在重启后重新安排通知。</string>
+    <string name="help_perm_record_audio_title">录音</string>
+    <string name="help_perm_record_audio_sum">需要录制音频笔记；如果未授予此权限，音频笔记将无法使用。</string>
+    <string name="help_perm_write_external_title">写入外部存储</string>
+    <string name="help_perm_write_external_sum">需要将笔记保存到内部存储；如果未授予此权限，无法将笔记外部保存。</string>
+
+    <string name="about_version_number">版本</string>
+    <string name="about_author">作者：</string>
+    <string name="about_author_names" translatable="false">Robin Morawetz, Maximilian Zimmermann,\n Patrick Schneider</string>
+    <string name="about_author_contributors">及贡献者。</string>
+    <string name="about_affiliation">隶属于</string>
+    <string name="about_privacy_friendly">该应用属于由卡尔斯鲁厄理工学院（KIT）开发的隐私友好应用程序组。源代码根据 GPLv3 许可。图像版权归 KIT 和 Google Inc. 所有。</string>
+    <string name="about_more_info">更多信息可以在以下网址找到：</string>
+    <string name="about_url" translatable="false"><a href="https://www.secuso.org/pfa">SECUSO 网站</a></string>
+    <string name="about_github" translatable="false"><a href="https://github.com/SecUSo/privacy-friendly-notes">GitHub 仓库</a></string>
+
+    <string name="note_item_title">标题</string>
+    <string name="note_item_description">描述</string>
+
+    <!-- ### TUTORIAL DIALOG ### -->
+    <string name="slide1_heading">欢迎！</string>
+    <string name="slide1_text">此应用让您创建和管理笔记。</string>
+
+    <string name="slide2_heading">关键元素</string>
+    <string name="slide2_text">目前支持四种类型的笔记：文本、检查清单、音频、草图。</string>
+
+    <string name="slide3_heading">优势</string>
+    <string name="slide3_text">大多数笔记应用需要很多权限并通过互联网同步。因此，它们使用一些您必须信任的公司服务。虽然这是一项方便的功能，但它削弱了您的隐私。隐私友好应用是一组优化隐私的 Android 应用程序。</string>
+
+    <string name="okay">好的</string>
+    <string name="viewhelp">查看帮助</string>
+    <string name="main_floating_button">浮动按钮</string>
+    <string name="next">下一个</string>
+    <string name="skip">跳过</string>
+    <string name="settings_appearance_heading">外观</string>
+    <string name="settings_settings_show_preview_title">显示笔记预览</string>
+    <string name="settings_settings_settings_show_preview_sum">在概览中显示笔记的简短预览</string>
+    <string name="text_note_fab_menu_desc">格式</string>
+    <string name="note_not_saved">笔记未保存</string>
+
+    <string name="select_day_night_theme">设计</string>
+    <string name="category_color">有颜色</string>
+    <string-array name="array_day_night_theme">
+        <item>系统</item>
+        <item>浅色</item>
+        <item>深色</item>
+    </string-array>
+
+    <!-- Text for sorting options of notes in main activity   -->
+    <!-- Order has to match the ordering of model/SortingOrder   -->
+    <string-array name="notes_sort_ordering_text">
+        <item>字母顺序</item>
+        <item>笔记类型</item>
+        <item>创建时间</item>
+        <item>最后修改</item>
+        <item>自定义顺序</item>
+    </string-array>
+    <string name="dialog_convert_to_checklist_title">转换为检查清单</string>
+    <string name="dialog_convert_to_checklist_desc">这将把此笔记转换为检查清单。每一行预计以“- [ ]”开头表示未勾选项，或以“- [x]”开头表示已勾选项。您要继续吗？</string>
+    <string name="dialog_convert_action">转换</string>
+    <string name="dialog_convert_to_text_title">转换为文本笔记</string>
+    <string name="dialog_convert_to_text_desc">这将把此笔记转换为文本笔记。您要继续吗？</string>
+    <string name="settings_sketch_undo_redo_desc">启用草图中的撤消/重做功能。此选项可能会导致旧设备上的性能问题。</string>
+    <string name="settings_sketch_undo_redo_title">草图中的撤消/重做</string>
+</resources>
