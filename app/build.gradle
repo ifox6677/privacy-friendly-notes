@@ -20,7 +20,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "org.secuso.privacyfriendlynotes"
+        applicationId "org.xray6677.notes"
         minSdkVersion 21
         compileSdk 34
         targetSdkVersion 34
